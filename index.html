@@ -152,6 +152,71 @@
 
   <!-- contact form -->
 
+  <section class="section container" id= contact>
+    <div class="row">
+      <div class="col s12 l5">
+        <h3 class="indigo-text text-darked-4">Get In Touch</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, mollitia ducimus.
+          Ducimus placeat sapiente iusto quam odio, voluptates eveniet, 
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, mollitia ducimus.
+            Ducimus placeat sapiente iusto quam odio, voluptates eveniet, 
+         </p>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, mollitia ducimus.
+          Ducimus placeat sapiente iusto quam odio, voluptates eveniet, 
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, mollitia ducimus.
+            Ducimus placeat sapiente iusto quam odio, voluptates eveniet, 
+         </p>
+      </div>
+      <div class="col s12 l5 offset-l2" style="margin-top: 20px;">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Your Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea class="materialize-textarea" id="message" cols="20" rows="20"></textarea>
+            <label for="message">Your Message</label>
+          </div>
+
+          <!-- date picker -->
+          <div class="input-field">
+            <input type="text" id= "date" class="datepicker">
+            <label for="date">Choose a date you need me for ...</label>
+          </div>
+          <!-- Services requerid -->
+          <div class="input-field">
+            <p>Services required ...</p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Photography</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Editing</span>
+              </label>
+            </p>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
   <!-- footer -->
 
   <!-- Compiled and minified JavaScript -->
@@ -163,6 +228,9 @@
       $('.materialboxed').materialbox();
       $('.parallax').parallax();
       $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends:true 
+      });
     });
   </script>
 </body>
